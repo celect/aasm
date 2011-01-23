@@ -152,7 +152,7 @@ module AASM
       # new event before callback
       event.call_action(:before, self)
 
-      new_state_name = event.fire(self, *args)
+      new_state_name = event.fire(self, nil, *args)
 
       unless new_state_name.nil?
         new_state = aasm_state_object_for_state(new_state_name)

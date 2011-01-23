@@ -37,9 +37,9 @@ class AASM::SupportingClasses::StateTransition
   def _execute(obj, on_transition, *args)
     case on_transition
       when Symbol, String
-        obj.send(on_transition, *args)
+        obj.send(on_transition, @from, @to, *args)
       when Proc
-        on_transition.call(obj, *args)
+        on_transition.call(obj, @from, @to, *args)
     end
   end
 
