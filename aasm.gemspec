@@ -84,9 +84,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rr>, [">= 0"])
       s.add_development_dependency(%q<reek>, ["~> 1.2.8"])
       s.add_development_dependency(%q<roodi>, ["~> 2.1.0"])
-      s.add_development_dependency(%q<rspec>, [">= 0"])
-      s.add_development_dependency(%q<shoulda>, [">= 0"])
-      s.add_development_dependency(%q<sdoc>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 2.0.0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
@@ -97,9 +94,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rr>, [">= 0"])
       s.add_dependency(%q<reek>, ["~> 1.2.8"])
       s.add_dependency(%q<roodi>, ["~> 2.1.0"])
-      s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<shoulda>, [">= 0"])
-      s.add_dependency(%q<sdoc>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, [">= 2.0.0"])
@@ -111,9 +105,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rr>, [">= 0"])
     s.add_dependency(%q<reek>, ["~> 1.2.8"])
     s.add_dependency(%q<roodi>, ["~> 2.1.0"])
-    s.add_dependency(%q<rspec>, [">= 0"])
-    s.add_dependency(%q<shoulda>, [">= 0"])
-    s.add_dependency(%q<sdoc>, [">= 0"])
   end
 end
 
